@@ -16,9 +16,9 @@ export default function Layout(props: { children: React.ReactNode }) {
       <Footer
         builtBy="Adamay, Sachin"
         builtByLink="https://marketplAIce.servatom.com/"
-        githubLink="https://github.com/mannadamay12"
-        twitterLink="https://twitter.com/adamay_mann"
-        linkedinLink="https://linkedin.com/in/adamaymann7"
+        githubLink="https://github.com/Sachin1801/marketplAIce/"
+        // twitterLink="https://twitter.com/adamay_mann"
+        // linkedinLink="https://linkedin.com/in/adamaymann7"
       />
     </div>
   );

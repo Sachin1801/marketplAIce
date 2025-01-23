@@ -10,8 +10,8 @@ export function Footer(props: {
   builtBy: string;
   builtByLink: string;
   githubLink: string;
-  twitterLink: string;
-  linkedinLink: string;
+  // twitterLink: string;
+  // linkedinLink: string;
 }) {
   return (
     <footer className="border-t">
@@ -43,8 +43,8 @@ export function Footer(props: {
         <div className="flex items-center space-x-1">
           {(
             [
-              { href: props.twitterLink, icon: TwitterLogoIcon },
-              { href: props.linkedinLink, icon: LinkedInLogoIcon },
+              // { href: props.twitterLink, icon: TwitterLogoIcon },
+              // { href: props.linkedinLink, icon: LinkedInLogoIcon },
               { href: props.githubLink, icon: GitHubLogoIcon },
             ] as const
           ).map((link, index) => (
