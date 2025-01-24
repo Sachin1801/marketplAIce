@@ -1,7 +1,6 @@
-import { StackProvider, StackTheme } from "@stackframe/stack";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import { stackServerApp } from "../stack";
+// import IndexPage from "./(landing-page)/page";
 import "./globals.css";
 import { Provider } from "./provider";
 
@@ -21,9 +20,7 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body className={inter.className}>
         <Provider>
-          <StackProvider app={stackServerApp}>
-            <StackTheme>{children}</StackTheme>
-          </StackProvider>
+          {children}
         </Provider>
       </body>
     </html>
