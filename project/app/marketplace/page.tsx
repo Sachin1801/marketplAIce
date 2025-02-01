@@ -3,7 +3,7 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { Brain, Cpu, FileCode, MessageSquare, Music, Pencil, Robot, Sparkles, Video, Wand2, Zap } from "lucide-react";
+import { Brain, Cpu, FileCode, MessageSquare, Music, Pencil, Bot, Sparkles, Video, Wand2, Zap } from "lucide-react";
 
 const models = [
     {
@@ -133,7 +133,7 @@ const models = [
       features: ["Task automation", "Self-improving", "Goal-oriented"],
       speed: 88,
       accuracy: 92,
-      icon: Robot,
+      icon: Bot,
       category: "agent"
     },
     {
@@ -153,7 +153,7 @@ const models = [
       features: ["Custom workflows", "API integration", "Multi-agent collaboration"],
       speed: 90,
       accuracy: 94,
-      icon: Robot,
+      icon: Bot,
       category: "agent"
     }
   ];
