@@ -1,8 +1,9 @@
 const express = require('express');
 const { body } = require('express-validator');
-const { subscribe } = require('../controllers/subscriptionController');
+const { getSubscribers, subscribe } = require('../controllers/subscriptionController');
 
 const router = express.Router();
+router.get('/', getSubscribers);
 
 router.post(
   '/subscribe',

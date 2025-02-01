@@ -36,3 +36,14 @@ exports.subscribe = async (req, res) => {
     res.status(500).json({ error: 'Internal server error' });
   }
 };
+
+exports.getSubscribers = async (req, res) => {
+    try {
+      const subscribers = await prisma.subscription.findMany();
+      res.status(200).json({ data: subscribers });
+    } catch (error) {
+      console.error('Error fetching subscribers:', error);
+      res.status(500).json({ error: 'Internal server error' });
+    }
+  };
+  

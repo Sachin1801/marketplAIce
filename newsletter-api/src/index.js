@@ -25,5 +25,7 @@ app.use((req, res) => {
   res.status(404).json({ error: `Cannot ${req.method} ${req.url}` });
 });
 
-const PORT = process.env.PORT || 8000;
-app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+if (require.main === module) {
+    const PORT = process.env.PORT || 8000;
+    app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+  }
