@@ -31,7 +31,11 @@ export default function RootLayout({
             <main className="flex-1">
               {children}
             </main>
-            <Footer />
+            <Footer 
+            builtBy="Adamay, Sachin"
+            builtByLink="https://marketplAIce.servatom.com/"
+            githubLink="https://github.com/Sachin1801/marketplAIce/"
+            />
           </div>
         </ThemeProvider>
       </body>

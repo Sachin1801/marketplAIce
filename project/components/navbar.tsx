@@ -20,7 +20,7 @@ export function Navbar() {
             <Button variant="ghost" className="flex items-center gap-1">
               Discover <ChevronDown className="h-4 w-4" />
             </Button>
-            <Link href="/" className="text-sm font-medium transition-colors hover:text-primary">
+            <Link href="/marketplace" className="text-sm font-medium transition-colors hover:text-primary">
               Home
             </Link>
             <Link href="/categories" className="text-sm font-medium transition-colors hover:text-primary">
