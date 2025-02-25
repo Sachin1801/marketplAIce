@@ -1,1 +1,4 @@
 .DS_Store
+.qodo
+*.env
+*/node_modules
